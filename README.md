@@ -12,6 +12,6 @@ Currently it will handle the following types
 1. Blob
 1. Primitives
 
-In tests, this algorthim will clone objects almost at the same speed as the newly added (Chrome 98) structuredClone, but will not throw an exceptions with functions. 
+In tests, this algorthim will clone objects almost at the same speed as the newly added (Chrome 98) structuredClone, but will not throw exceptions with functions. 
 
 It is upto 30x faster than Lodash 
