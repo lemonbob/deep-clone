@@ -14,4 +14,6 @@ Currently it will handle the following types
 
 In tests, this algorthim will clone objects almost at the same speed as the newly added (Chrome 98) structuredClone, but will not throw exceptions with functions. 
 
+Usage - deepClone(obj, [options]) - options object supports {freeze: true} that will also freeze the cloned object
+
 **upto 30x faster than Lodash cloneDeep**
