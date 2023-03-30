@@ -11,6 +11,7 @@ Currently it will handle the following types
 1. File
 1. Blob
 1. Primitives
+1. Functions (value will be converted to undefined)
 
 In tests, this algorthim will clone objects almost at the same speed as the newly added (Chrome 98) structuredClone, but will not throw exceptions with functions. 
 
